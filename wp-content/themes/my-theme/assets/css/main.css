@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+}
+html {
+  font-size: 62.5%;
+}
+header{
+    background-color: green;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+  color: #333;
+font-family: 'Dosis', sans-serif;
+}
+nav{
+    margin-right: 5rem;
+}
+nav div ul li{
+    list-style-type:none;
+    display:inline-block;
+}
+nav div ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:2rem;
+    margin-left: 1rem;   
+}
+
+
+
+
+
+
+
+
+
+
+.numero1{
+    background-image: url(../img/banniere.jpg);
+    min-height:59rem;
+    background-repeat:no-repeat;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+.contient{
+    width: 1425px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.numero1 #infos1 h1{
+    text-transform: uppercase;
+}
+.numero1 #infos1 {
+    line-height: 4rem;
+}
+.numero1 #infos1 p{
+    font-size: 20px;
+}
+.numero1 #infos1 .titre{
+    color: gray;
+    font-size:4rem;
+    margin-bottom:10px;
+}
+.numero1 #infos1 .titre2{
+    color: forestgreen;
+    font-size:3.5rem;
+}
+.numero1 #infos1 button{
+    border-radius:30px;
+    background-color: green;
+    color: white;
+    font-size:3px;
+    padding:1px;
+    margin-top:1px;
+    border:1px solid green;
+}
+
+
+
+
+
+
+
+
+
+
+.num2{
+    background-color: white
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height:50px;
+    display:flex;
+
+}
+.num2 h1 {
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom:20px;
+    text-transform:uppercase;
+}
+.num2 h1:before {
+    background: #ddd;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    right: 47%;
+    height: 1px;
+    content: '';
+}
+.num2 p{
+    font-size: 24px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+
+.num3{
+    background-image: url(../img/bandeau.jpg);
+    min-height:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.num4{
+    min-height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+footer{
+    display:flex;
+    background-color:#333333;
+    min-height:100px;
+}
+footer p{
+    margin-left:30px;
+    font-size:14px;
+    color:white;
+    margin-top:30px;
+}
